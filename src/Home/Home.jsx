@@ -1,11 +1,13 @@
 import React from 'react';
 import Navbar from '../Navbar';
+import BlogForm from '../BlogForm';
 
 const Home = () => {
     return (
         <div>
             <Navbar></Navbar>
-            <h2>Home 2</h2>
+            <h2 className='text-center text-2xl mt-5'>Blog Form</h2>
+            <BlogForm></BlogForm>
         </div>
     );
 };
